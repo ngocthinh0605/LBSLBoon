@@ -1,0 +1,63 @@
+.footer{
+    background-color:#F0F0F0;
+}
+
+
+.footer__logo{
+ margin-top: 119px;
+
+}
+.footer__infor{
+    margin-top: 25px;
+}
+
+.footer__infor p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #255056;
+}
+
+.footer__about{
+    padding-top: 138px;
+    padding-left: 50px;
+}
+.footer__about h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #255056;
+}
+
+.footer__about ul {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    /* or 188% */
+
+
+    /* blue */
+
+    color: #255056;
+    margin-left: 25px;
+}
+
+.footer__connect i {
+    font-size: 25px;
+    margin-right: 21px;
+    color: #255056;
+    
+}
+.footer__social{
+    margin-top: 32px;
+    
+}
+.footer__content-wrap{
+    padding-bottom: 100px;
+}
