@@ -26,10 +26,10 @@ const Header = ({active}) => {
             <section className="header">
                 <div className="grid wide">
                     <div className="row header__wrapper">
-                        <div className="header__logo col l-6 c-11">
+                        <div className="header__logo col l-7 c-11">
                             <img src={logo21} alt="logo" />
                         </div>
-                        <div className="header__nav col l-6 ">
+                        <div className="header__nav col l-5 ">
                             <ul>
                                 <li className={`header__nav-item ${active == 'home' && 'active' } `}><Link to="/">Home</Link></li>
                                 <li className={`header__nav-item ${active == 'product' && 'active' } `}><Link to="/product">Product</Link></li>

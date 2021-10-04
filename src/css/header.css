@@ -28,6 +28,9 @@
     height: 107px;
 
 }
+.header__nav-item{
+    margin-right: 75px;
+}
 
 .header__nav-item.active a {
     color: #E6B86A;
