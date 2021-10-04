@@ -63,7 +63,7 @@ import Footer from './../../components/Footer';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+        <Header active = {"home"}></Header>
       <div className="container grid wide">
         <section className="blockchainify ">
           <div className="blockchainify__top">

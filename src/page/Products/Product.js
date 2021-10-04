@@ -24,7 +24,7 @@ import ProductItems from './ProductItems';
 const Product = () => {
     return (
         <>
-            <Header></Header>
+            <Header active = {"product"}></Header>
             <HeaddingSubPage title = {"Products"}></HeaddingSubPage>
             <div className="grid">
                 <div className="products__container">

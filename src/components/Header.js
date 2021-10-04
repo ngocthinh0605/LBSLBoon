@@ -19,7 +19,7 @@ window.addEventListener('load', (event) => {
   });
 
 
-const Header = () => {
+const Header = ({active}) => {
     return (
         <> 
         <div className="grid">
@@ -31,10 +31,10 @@ const Header = () => {
                         </div>
                         <div className="header__nav col l-6 ">
                             <ul>
-                                <li className="header__nav-item active"><Link to="/">Home</Link></li>
-                                <li className="header__nav-item"><Link to="/product">Product</Link></li>
-                                <li className="header__nav-item"><Link to="/team" >Team</Link></li>
-                                <li className="header__nav-item"><Link to="/blog" >Blog</Link></li>
+                                <li className={`header__nav-item ${active == 'home' && 'active' } `}><Link to="/">Home</Link></li>
+                                <li className={`header__nav-item ${active == 'product' && 'active' } `}><Link to="/product">Product</Link></li>
+                                <li className={`header__nav-item ${active == 'team' && 'active' } `}><Link to="/team" >Team</Link></li>
+                                <li className={`header__nav-item ${active == 'blog' && 'active' } `}><Link to="/blog" >Blog</Link></li>
                             </ul>
                         </div>
                         <div className="header__bars ">

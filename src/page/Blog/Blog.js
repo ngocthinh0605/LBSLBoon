@@ -23,7 +23,7 @@ import BlogItem from './BlogItem';
 const Blog = () => {
     return (
         <>
-        <Header></Header>
+        <Header active={"blog"}></Header>
         <HeaddingSubPage title={"Blog"}></HeaddingSubPage>
         <div className="grid">
             <div className="blog__container">
@@ -69,7 +69,7 @@ const Blog = () => {
                         <div className="blog__project-idea">
                             <h1>Project’s idea</h1>
                             <div className="blog__project-idea__content">
-                                
+
                             </div>
                         </div>         
                     </div>

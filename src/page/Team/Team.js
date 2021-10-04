@@ -33,7 +33,7 @@ import TeamItem from './TeamItem';
 const Team = () => {
     return (
         <>
-            <Header></Header>
+            <Header active={"team"}></Header>
             <HeaddingSubPage title ={"Team"}></HeaddingSubPage>
             <div className="grid">
                 <div className="team__container">
