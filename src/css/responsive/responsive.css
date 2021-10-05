@@ -282,6 +282,10 @@
     .wrap__angry ul{
     margin-left: 5px;
     }
+    .wrap__angry li{
+        list-style: none;
+    }
+
     /*  */
     .wrap__angry-2{
         text-align: center;
@@ -297,6 +301,9 @@
      }
      .wrap__angry-2 ul{
         margin-left: 5px;
+     }
+     .wrap__angry-2 li{
+         list-style: none;
      }
 
      .ourpatner__items{
@@ -594,6 +601,9 @@
     .wrap__angry h4{
         margin-left: 5px;
     }
+    .wrap__angry li{
+        list-style: none;
+    }
 
     .wrap__angry p{
         margin-left: 5px;
@@ -651,6 +661,10 @@
      }
      .wrap__angry-2 ul{
         margin-left: 5px;
+     }
+
+     .wrap__angry-2 li{
+         list-style: none;
      }
 
 
