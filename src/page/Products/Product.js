@@ -48,6 +48,7 @@ const Product = () => {
                                 </div>
                             </div>
                             <div className="products__list-items row">
+                               
                                 <ProductItems title ={"Mall"} descp = {"Lorem Ipsum has been the industry's standard dummy text ever since"}></ProductItems>
                                 <ProductItems title ={"Stuti"} descp = {"Lorem Ipsum has been the industry's standard dummy text ever since"}></ProductItems>
                                 <ProductItems title ={"Flo"} descp = {"Lorem Ipsum has been the industry's standard dummy text ever since"}></ProductItems>

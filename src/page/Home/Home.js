@@ -159,14 +159,19 @@ const Home = () => {
               <div className="ourproducts__bottom-right l-4 c-12 m-12">
                 <div className="ourproducts__item-wrap">
                   <div className="ourproducts__item">
+                      <img src={item32} alt="" className="ourproducts__item--3-img" />
+                      <img src={item31} alt="" className="ourproducts__item--3-img " />
                     <div className="ourproducts__item-title">
                       <span>DApps</span>
                     </div>
                     <div className="ourproducts__item-img">
+                     
                       <img src={ourItem1} alt="" />
                     </div>
                   </div>
                   <div className="ourproducts__item">
+                    <img src={item32} alt="" className="ourproducts__item--3-img" />
+                    <img src={item31} alt="" className="ourproducts__item--3-img " />
                     <div className="ourproducts__item-title">
                       <span>Games</span>
                     </div>
@@ -187,6 +192,8 @@ const Home = () => {
                    
                   </div>
                   <div className="ourproducts__item">
+                    <img src={item32} alt="" className="ourproducts__item--3-img" />
+                    <img src={item31} alt="" className="ourproducts__item--3-img " />
                     <div className="ourproducts__item-title">
                       <span>Wallet</span>
                     </div>
