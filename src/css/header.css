@@ -8,6 +8,11 @@
 .header__logo{
     align-items: center;
 }
+.header__logo img{
+    width: 197px;
+    height: 55px;
+    object-fit: cover;
+}
 
 .header__nav ul {
     list-style: none;
