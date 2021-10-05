@@ -99,7 +99,7 @@ const Home = () => {
             </div>
             <div className="aboutus__right l-9">
               <div className="row">
-                <div className="aboutus__right-1 col l-6 c-12 ">
+                <div className="aboutus__right-1 col l-6 c-12 m-12 ">
                   <div className="aboutus__card aboutus__card-mt col c-12">
                     <img src={card1} alt="" className="aboutus__card-img" />
                     <div className="aboutus__card-infor">
@@ -107,7 +107,7 @@ const Home = () => {
                       <p>Our users will manage their own data and properties</p>
                     </div>
                   </div>
-                  <div className="aboutus__card col c-12">
+                  <div className="aboutus__card col c-12 m-12">
                     <img src={card2} alt="" className="aboutus__card-img" />
                     <div className="aboutus__card-infor">
                       <span>Enthusiasm</span>
@@ -115,7 +115,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="aboutus__right-2 col l-6 c-12">
+                <div className="aboutus__right-2 col l-6 c-12 m-12">
                   <div className="aboutus__card aboutus__card-mt col c-12">
                     <img src={card3} alt="" className="aboutus__card-img" />
                     <div className="aboutus__card-infor">
@@ -123,7 +123,7 @@ const Home = () => {
                       <p>The Laboon team is meant to ease the anxiety of insecurity.</p>
                     </div>
                   </div>
-                  <div className="aboutus__card col c-12">
+                  <div className="aboutus__card col c-12 m-12">
                     <img src={aboutline} alt="" className="about-img aboutline3" />
                     <img src={aboutline} alt="" className="about-img aboutline4" />
                     <img src={card4} alt="" className="aboutus__card-img" />
@@ -146,7 +146,7 @@ const Home = () => {
           </div>
           <div className="ourproducts__bottom">
             <div className="row">
-              <div className="ourproducts__bottom-left l-8 c-12">
+              <div className="ourproducts__bottom-left l-8 c-12 m-12">
                 <img src={Vectormake2} alt="" className="ourproducts__bottom-img ourproducts__bottom-img1 " />
                 <img src={maket3} alt="" className="ourproducts__bottom-img ourproducts__bottom-img4 " />
                 <img src={maketheo} alt="" className="ourproducts__bottom-img ourproducts__bottom-img2" />
@@ -156,7 +156,7 @@ const Home = () => {
                   <p>The digital market allows players to sell and buy those items with great qualities</p>
                 </div>
               </div>
-              <div className="ourproducts__bottom-right l-4 c-12">
+              <div className="ourproducts__bottom-right l-4 c-12 m-12">
                 <div className="ourproducts__item-wrap">
                   <div className="ourproducts__item">
                     <div className="ourproducts__item-title">
@@ -296,7 +296,7 @@ const Home = () => {
         </div>
       </section>
       <Footer></Footer>
-        </div>
+      </div>
     )
 }
 

@@ -40,6 +40,7 @@
     }
     .header__bars{
         padding:5px;
+        display: block;
     }
     .header__bars i{
        color: #E6B86A;
@@ -47,9 +48,6 @@
         
     }
 
-    .header__bars{
-        display: block;
-    }
 
     .blockchainify{
         height: 600px;
@@ -95,7 +93,6 @@
     .aboutus{
         height:100%;
         padding-bottom: 50px;
-        
     }
     .aboutus__left-wrapper{
       text-align: center;
@@ -389,4 +386,321 @@
      .header__logo img{
          margin-left: 24px;
      }
+}
+
+@media screen and (min-width: 740px) and (max-width: 1023px){
+    .header__bars{
+        display: block;
+        padding:10px;
+    }
+    .header__nav{
+        position:absolute;
+        right:0;
+        height:92vh;
+        top:10vh;
+        background-color:#255056;
+        z-index: 2;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        width: 100%;
+        border:1px solid #ccc;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        display: none;
+        
+    }
+
+    .nav_active{
+        transform: translateX(0%);
+        display:block;
+        transition: all 0.5s ease-in;
+        
+    }
+    .header__nav ul{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .header__nav-item{
+        padding: 50px 50px;
+    }
+    .header__bars i{
+        color: #E6B86A;
+        cursor: pointer;
+        font-size:30px;
+     }
+
+     .blockchainify--img{
+        top: 15px;
+        left: -160px;
+        /* width:100%; */
+        /* height: 100%; */
+        height: 400px;
+        
+    }
+    .blockchainify--img1{
+        top: -73px;
+        left: 234px;
+        height: 411px;
+    }
+    .aboutus{
+        margin-top: -274px;
+        height: 2034px;
+
+    }
+    .aboutus__left{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .aboutus__right-1{
+        margin: 0 auto;
+    }
+    .aboutus__card{
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+    .aboutus__right-1{
+        margin-top: 95px;
+    }
+    .aboutus__right-2{
+        margin-top: 15px;
+    }
+   .aboutbot1{
+    display:none;
+   }
+
+   .ourproducts__title{
+        padding-top: 104px;
+   }
+
+   .productlist{
+       margin-top: 300px;
+   }
+
+   .ourproducts__item-wrap{
+        position: absolute;
+        display: flex;  
+        left: -307px;
+        top: 548px;
+    }
+
+    .ourproducts__bottom-left{
+        width: 100%;
+    }
+
+    .ourproducts__bottom-img1{
+        width: 674.33px;
+        height: 601.14px;
+        top: 0;
+        left: -190px;
+    }
+    .ourproducts__bottom-img2{
+        width: 590px;
+        height: 590px;
+        top: -3px;
+        left: 45px;
+    }
+
+    .ourproducts__bottom-img4{
+        width: 419px;
+        height: 419px;
+        top: 124px;
+        left: 148px;
+    }
+    .ourproducts__bottom-img3{
+        display: none;
+    }
+    .ourproducts__bottom-wrap{
+        
+        margin-left: 108px;
+        margin-top: 540px;
+        
+    }
+
+    .productlist-img1
+     {
+        width: 250px;
+        height: 210px;
+        top: -16px;
+        right: -27px;
+     }
+     .productlist1{
+         
+        width: 272px;
+        height: 154px;
+        right: 0;
+     }
+
+     .productlist2{
+        width: 307px;
+        height: 116px;
+        top: 0;
+     }
+     .productlist3,
+     .productlist4,.productlist6,.makeg2{
+         display: none;
+     }
+
+     .productlist5{
+        width: 128px;
+        height: 128px;
+        top: 127px;
+        right: 22px;
+     }
+
+     .productlist7{
+        width: 172px;
+        height: 184px;
+        top: 30px;
+        right: -27px;
+     }
+
+    .productlist{
+        height: 4620px;
+    }
+
+    .angry{
+        height:1300px;
+    }
+    .angry__left img{
+        top: 326px;
+        left: 0;
+        width:100%;
+
+   }
+   .angry__right img{
+        width:100%;
+       padding:0 20px;
+
+        transform: rotate(-5.88deg);
+   }
+   .wrap__angry {
+       margin-top: 666px;
+   }
+
+   .angry__right button{
+       position: absolute;
+       top: 250px;
+       margin-left: 237px;
+
+   }
+
+   .wrap__angry{
+    text-align: center;
+    }
+
+    .wrap__angry h4{
+        margin-left: 5px;
+    }
+
+    .wrap__angry p{
+    margin-left: 5px;
+    }
+
+    .wrap__angry ul{
+    margin-left: 5px;
+    }
+
+
+    /*  */
+
+    .crash{
+        position: relative;
+        height:1300px;
+    }
+    .angry__right-2{
+        padding-bottom: 50px;
+    }
+ 
+    .angry__left-2 img{
+        width:100%;
+        padding:0 20px;
+ 
+    }
+ 
+    .wrap__angry-2{
+        margin-top: 692px;
+    }
+    .angry__left-2 button {
+        position: absolute;
+        top: 276px;
+        margin-left: 220px
+ 
+    }
+    .angry__right-2 img{
+         width:100%;
+         position: absolute;
+         top: 391px;
+    }
+
+    /*  */
+    .wrap__angry-2{
+        text-align: center;
+    }
+    .wrap__angry-2{
+        margin-left: 0px;
+    }
+    .wrap__angry-2 h4{
+        margin-left: 5px;
+     }
+    .wrap__angry-2 p{
+        margin-left: 5px;
+     }
+     .wrap__angry-2 ul{
+        margin-left: 5px;
+     }
+
+
+     /*  */
+     .rayman3 .angry__left img{
+        width: 100%;
+        left: 0;
+        top: 354px;
+    }
+ 
+    .rayman3 .angry__right img{
+        margin-top: -76px;
+        padding:0 20px;
+        width: 100%;
+    }
+ 
+    .rayman3 .angry__right button {
+        top: 224px;
+        margin-left: 217px;
+ 
+    }
+    .rayman3 .wrap__angry{
+        margin-top: 752px;
+    }
+
+
+    .footer__logo{
+        text-align: center;
+    }
+    .footer__about h4{
+        margin-bottom: 15px;
+        font-size:60px;
+        margin-left: 25px;
+    }
+    .footer__about ul{
+        display: flex;
+        
+    }
+    .footer__about li{
+        margin-left: 25px;
+    }
+  
+    .footer__about{
+        margin-top: -100px;
+    }
+    .footer__connect h4{
+        display: none;
+
+    }
+    .footer__connect{
+        text-align: center;
+    }
+       
 }
