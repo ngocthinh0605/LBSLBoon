@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const HeaddingSubPage = ({title}) => {
     return (
         <>
-            <div className="grid">
+            <div className="grid wide">
                 <div className="product__heading row">
                     <div className="col l-6">
                         <img src={Group235} alt="" className="group235" />

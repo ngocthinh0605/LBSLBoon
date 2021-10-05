@@ -23,31 +23,30 @@ import group17 from '../img/Group17.png'
 const TitleSubPage = ({title, desp}) => {
     return (
         <>
-            <div className="grid title__heading-container">
-
+            <div className="grid wide title__heading-container">
                 <img src={group17} alt="" className="title__heading-img title__heading-group17" />
-                <img src={group6} alt="" className="title__heading-img title__heading-group6" />
-                <img src={group7} alt="" className="title__heading-img title__heading-group7" />
-                <img src={group16} alt="" className="title__heading-img title__heading-group16" />
-                <img src={group1} alt="" className="title__heading-img title__heading-group1" />
-                <img src={group3} alt="" className="title__heading-img title__heading-group3" />
-                <img src={group2} alt="" className="title__heading-img title__heading-group2" />
-                <img src={group4} alt="" className="title__heading-img title__heading-group4" />
-                <img src={group5} alt="" className="title__heading-img title__heading-group5" />
-                <img src={group9} alt="" className="title__heading-img title__heading-group9" />
-                <img src={group8} alt="" className="title__heading-img title__heading-group8" />
-                <img src={group10} alt="" className="title__heading-img title__heading-group10" />
-                <img src={group11} alt="" className="title__heading-img title__heading-group11" />
-                <img src={group12} alt="" className="title__heading-img title__heading-group12" />
-                <img src={group13} alt="" className="title__heading-img title__heading-group13" />
-                <img src={group14} alt="" className="title__heading-img title__heading-group14" />
-                <img src={group15} alt="" className="title__heading-img title__heading-group15" />
+                    <img src={group6} alt="" className="title__heading-img title__heading-group6" />
+                    <img src={group7} alt="" className="title__heading-img title__heading-group7" />
+                    <img src={group16} alt="" className="title__heading-img title__heading-group16" />
+                    <img src={group1} alt="" className="title__heading-img title__heading-group1" />
+                    <img src={group3} alt="" className="title__heading-img title__heading-group3" />
+                    <img src={group2} alt="" className="title__heading-img title__heading-group2" />
+                    <img src={group4} alt="" className="title__heading-img title__heading-group4" />
+                    <img src={group5} alt="" className="title__heading-img title__heading-group5" />
+                    <img src={group9} alt="" className="title__heading-img title__heading-group9" />
+                    <img src={group8} alt="" className="title__heading-img title__heading-group8" />
+                    <img src={group10} alt="" className="title__heading-img title__heading-group10" />
+                    <img src={group11} alt="" className="title__heading-img title__heading-group11" />
+                    <img src={group12} alt="" className="title__heading-img title__heading-group12" />
+                    <img src={group13} alt="" className="title__heading-img title__heading-group13" />
+                    <img src={group14} alt="" className="title__heading-img title__heading-group14" />
+                    <img src={group15} alt="" className="title__heading-img title__heading-group15" />
 
-                <div className="title__heading-subpage">
-                    <h1>{title}</h1>
-                    {/* <h1>Laboon Products</h1> */}
-                    <p>{desp}</p>
-                </div>
+                    <div className="title__heading-subpage">
+                        <h1>{title}</h1>
+                        {/* <h1>Laboon Products</h1> */}
+                        <p>{desp}</p>
+                    </div>
             </div>
         </>
     )
