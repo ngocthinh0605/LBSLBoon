@@ -588,7 +588,7 @@
    }
 
    .wrap__angry{
-    text-align: center;
+        text-align: center;
     }
 
     .wrap__angry h4{
@@ -596,11 +596,13 @@
     }
 
     .wrap__angry p{
-    margin-left: 5px;
+        margin-left: 5px;
     }
 
     .wrap__angry ul{
-    margin-left: 5px;
+        margin-left: 5px;
+        list-style: none;
+
     }
 
 
@@ -649,6 +651,7 @@
         margin-left: 5px;
      }
      .wrap__angry-2 ul{
+        list-style: none;
         margin-left: 5px;
      }
 
@@ -690,6 +693,7 @@
     }
     .footer__about li{
         margin-left: 25px;
+
     }
   
     .footer__about{
