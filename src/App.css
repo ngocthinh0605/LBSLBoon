@@ -127,7 +127,13 @@ body {
   box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background: #FFFFFF;
+  cursor: pointer;
   
+}
+.aboutus__card:hover{
+  transform:translateY(-20px);
+  transition: all 0.5s ease-in;
+
 }
 
 .aboutus__right-1{
@@ -355,10 +361,14 @@ body {
   box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   cursor: pointer;
+
 }
 
 .ourproducts__item:hover{
+  
   background-color:  #E6B86A;
+  
+  transition: all 0.4s ease-in;
 }
 
 .ourproducts__item:hover .ourproducts__item-title span {
@@ -367,6 +377,7 @@ body {
 
 .ourproducts__item:hover .ourproducts__item--3-img{
   display: block;
+  
 }
 
 .ourproducts__item-wrap{

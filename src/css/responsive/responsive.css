@@ -2,10 +2,7 @@
     .container{
         overflow: hidden;
       }
-    .stop-scrolling {
-    height: 100%;
-    overflow: hidden;
-    }
+
     .header__nav{
         position:absolute;
         right:0;
@@ -16,7 +13,7 @@
         display:flex;
         flex-direction:column;
         align-items: center;
-        width: 100%;
+        width: 50%;
         border:1px solid #ccc;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
@@ -36,7 +33,7 @@
         
     }
     .header__nav-item{
-        padding: 15px 50px;
+        padding: 15px;
     }
     .header__bars{
         padding:5px;
@@ -410,7 +407,7 @@
         display:flex;
         flex-direction:column;
         align-items: center;
-        width: 100%;
+        width: 50%;
         border:1px solid #ccc;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;

@@ -155,6 +155,9 @@
                 .products__item:hover{
                     background-color: #E6B86A;
                     cursor: pointer;
+                    // transform: translateY(-15px);
+                    transition: all 0.5s ease-in;
+                    
                 }
 
                 .products__item:hover .products__item-img__active{

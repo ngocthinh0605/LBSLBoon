@@ -124,8 +124,8 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="aboutus__card col c-12 m-12">
-                    <img src={aboutline} alt="" className="about-img aboutline3" />
-                    <img src={aboutline} alt="" className="about-img aboutline4" />
+                    {/* <img src={aboutline} alt="" className="about-img aboutline3" />
+                    <img src={aboutline} alt="" className="about-img aboutline4" /> */}
                     <img src={card4} alt="" className="aboutus__card-img" />
                     <div className="aboutus__card-infor">
                       <span>Flexibility</span>
