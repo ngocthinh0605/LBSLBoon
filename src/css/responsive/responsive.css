@@ -47,10 +47,12 @@
 
 
     .blockchainify{
-        height: 600px;
+        height: 800px;
+
     }
     .blockchainify__top{
         margin:0px 45px 0 45px;
+
     }
     .blockchainify__top h1{
         font-weight: 500;
@@ -58,7 +60,9 @@
         line-height: 22px;
     }
 
-    .blockchainify__top p {
+    .blockchainify__top p { 
+        text-align: center;
+
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
@@ -66,7 +70,6 @@
         line-height: 30px;
         /* or 167% */
 
-        text-align: center;
 
         color: #000000;
     }
@@ -80,8 +83,11 @@
         
     }
     .blockchainify--img1{
-        top: -104px;
-        left: 40px;
+        top: -35px;
+    left: -217px;
+        width: 826.9px;
+        height: 522px;
+        
     }
     .aboutus__left{
         margin-top: 80px;
@@ -444,8 +450,8 @@
         
     }
     .blockchainify--img1{
-        top: -73px;
-        left: 234px;
+        top: 0;
+        left: 0;
         height: 411px;
     }
     .aboutus{

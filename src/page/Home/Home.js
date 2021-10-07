@@ -9,6 +9,8 @@ import logo21 from '../../img/logo21.png'
 
 
 import blockchainifyfull from '../../img/blockchainifityfull.png'
+import backgroundBlockchinHome from '../../img/backgroundBlockchain.png'
+
 import blockchainify1 from '../../img/blockchainifity1.png'
 import card1 from '../../img/card1.png'
 import card2 from '../../img/card2.png'
@@ -74,8 +76,8 @@ const Home = () => {
             <p>own their gamified economies.</p> 
           </div>
           <div className="blockchainify__bottom">
-            <img src={blockchainifyfull} alt="" className="blockchainify__bottom-img blockchainify--img" />
-            <img src={blockchainify1} alt="" className="blockchainify__bottom-img blockchainify--img1" />
+            {/* <img src={blockchainifyfull} alt="" className="blockchainify__bottom-img blockchainify--img" /> */}
+            <img src={backgroundBlockchinHome} alt="" className="blockchainify__bottom-img blockchainify--img1" />
           </div>
         </section>
         <section className="aboutus">
@@ -88,7 +90,6 @@ const Home = () => {
           <img src={lineabout} alt="" className="about-img lineabout" />
           <img src={lineabout1} alt="" className=" lineabout1" />
           <img src={dotabout} alt="" className=" lineabout2" />
-
           <div className="row">
             <div className="aboutus__left col l-3 c-12">
               <div className="aboutus__left-wrapper">
