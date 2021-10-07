@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/header.css'
 import '../css/responsive/responsive.css'
 import '../grid.css'
-import logo21 from '../img/W1.png'
+import logo21 from '../img/logo21.png'
 import {Link} from 'react-router-dom'
 
 
@@ -19,7 +19,7 @@ window.addEventListener('load', (event) => {
   });
 
 
-const Header = ({active}) => {
+const Header = ({active, logo}) => {
     return (
         <> 
         <div className="grid">
@@ -27,7 +27,7 @@ const Header = ({active}) => {
                 <div className="grid wide">
                     <div className="row header__wrapper">
                         <div className="header__logo col l-7 c-11">
-                            <img src={logo21} alt="logo" />
+                            <img src={logo} alt="logo" />
                         </div>
                         <div className="header__nav col l-5 ">
                             <ul>

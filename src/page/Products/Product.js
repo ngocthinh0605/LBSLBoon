@@ -18,13 +18,16 @@ import productitemactive1 from './imgProduct/productitemactive1.png'
 import productitemactive2 from './imgProduct/productitemactive2.png'
 import arrow from './imgProduct/arrow.png'
 
+import logo21 from '../../img/W1.png'
+
+
 import ProductItems from './ProductItems';
 
 
 const Product = () => {
     return (
         <>
-            <Header active = {"product"}></Header>
+            <Header active = {"product"} logo={logo21}></Header>
             <HeaddingSubPage title = {"Products"}></HeaddingSubPage>
             <div className="grid">
                 <div className="products__container">

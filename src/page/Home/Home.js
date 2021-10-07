@@ -5,6 +5,8 @@ import React from 'react'
 import Header from './../../components/Header';
 
 // import blockchainifyfull1 from '../../img/'
+import logo21 from '../../img/logo21.png'
+
 
 import blockchainifyfull from '../../img/blockchainifityfull.png'
 import blockchainify1 from '../../img/blockchainifity1.png'
@@ -63,7 +65,7 @@ import Footer from './../../components/Footer';
 const Home = () => {
     return (
         <div>
-        <Header active = {"home"}></Header>
+        <Header active = {"home"} logo={logo21}></Header>
       <div className="container grid wide">
         <section className="blockchainify ">
           <div className="blockchainify__top">

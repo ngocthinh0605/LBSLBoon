@@ -14,9 +14,11 @@ body {
 .container{
   position: relative;
   
+  
 }
 .blockchainify{
   height: 1036px;
+  margin-top: 107px;
 }
 
 .blockchainify__top{
