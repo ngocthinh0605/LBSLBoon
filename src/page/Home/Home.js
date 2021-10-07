@@ -101,7 +101,7 @@ const Home = () => {
               </div>
             </div>
             <div className="aboutus__right l-9">
-              <div className="row">
+              <div className="row no-gutters">
                 <div className="aboutus__right-1 col l-6 c-12 m-12 ">
                   <div className="aboutus__card aboutus__card-mt col c-12">
                     <img src={card1} alt="" className="aboutus__card-img" />
@@ -168,7 +168,6 @@ const Home = () => {
                       <span>DApps</span>
                     </div>
                     <div className="ourproducts__item-img">
-                     
                       <img src={ourItem1} alt="" />
                     </div>
                   </div>
@@ -189,7 +188,7 @@ const Home = () => {
                     <div className="ourproducts__item-title active">
                       <span>Marketplace</span>
                     </div>
-                    <div className="ourproducts__item-img">
+                    <div className="ourproducts__item-img active">
                       <img src={ourItem3} alt="" />
                     </div>
                    
@@ -230,7 +229,7 @@ const Home = () => {
                 <div className="angry__left col l-6 c-12">
                   <img src={angry} alt="" />
                 </div>
-                <div className="angry__right col l-6 c-12">
+                <div className="angry__right roate col l-6 c-12">
                   <img src={angrylogo} alt="" />
                   <div className="wrap__angry">
                     <h4>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur</h4>

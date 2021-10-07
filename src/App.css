@@ -80,11 +80,12 @@ body {
 }
 
 .aboutus__left{
-  margin-top: 350px;
+  margin-top: 370px;
   padding-right: 100px;
   
 }
 .aboutus__left-wrapper{
+  text-align: right;
 }
 
 .aboutus__left-wrapper h1{
@@ -116,6 +117,7 @@ body {
 .aboutus__right{
   height:100%;
   position:relative;
+  padding-left: 110px;
 }
 
 .aboutus__card{
@@ -123,6 +125,7 @@ body {
   width: 354px;
   height:409px;
   margin-bottom: 38px;
+
   box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background: #FFFFFF;
@@ -137,6 +140,7 @@ body {
 
 .aboutus__right-1{
   margin-top: 160px;
+
 }
 
 .aboutus__right-2{
@@ -145,7 +149,8 @@ body {
 
 
 .aboutus__card img{
-  margin: 39px 0 0 38px;
+  padding: 39px 21px 0 20px;
+  object-fit: cover;
 }
 
 .aboutus__card-infor span{
@@ -326,11 +331,12 @@ body {
   
   color: #E6B86A;
   text-shadow: -1px 1px black, 1px 1px black, -1px -1px black, 1px -1px black;
+  letter-spacing: 2px;
   
 }
 
 .ourproducts__bottom-wrap p{
-  margin-left: 50px;
+  margin-left: 120px;
   margin-top: 15px;
   font-family: Poppins;
   font-style: normal;
@@ -400,9 +406,17 @@ body {
 
   color: #255056;
 }
-/* .ourproducts__item-title.active span{
-  color: white;
-} */
+.ourproducts__item-title.active span{
+  margin-left: 15px;
+
+}
+
+.ourproducts__item-img.active img{
+
+  position: relative;
+  top: 0;
+  left: -21px;
+}
 
 .ourproducts__item--3{
 
@@ -515,8 +529,9 @@ body {
   margin-top: 30px;
   position: relative;
   border-bottom: 1px solid #000000;
-  height:800px
+  height:800px;
 }
+
 .angry{
   position: relative;
   border-bottom: 1px solid #000000;
@@ -526,6 +541,30 @@ body {
   position: absolute;
   top: 0;
   left: -351px;
+}
+
+.angry__right img{
+
+  filter: grayscale(100%);
+
+}
+.angry__left-2 img{
+
+  filter: grayscale(100%);
+
+}
+
+.angry__right img:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+
+}
+
+.angry__left-2 img:hover{
+
+  cursor: pointer;
+  filter: grayscale(0%);
+
 }
 
 .angry__right h4{
@@ -583,9 +622,14 @@ body {
   /* wihite */
 
   color: #FEFEFE;
-  box-shadow: 5px 5px 2px 0px #E6B86A;
 }
 
+
+.angry__right button:hover{
+  opacity: 0.9;
+  box-shadow: 5px 5px 2px 0px #E6B86A;
+  transition: all 0.3s ease-in;
+}
 /*  */
 
 .angry__left-2 h4{
@@ -641,10 +685,18 @@ body {
   text-align: center;
 
   /* wihite */
-  box-shadow: 5px 5px 2px 0px #E6B86A;
 
   color: #FEFEFE;
 }
+
+
+.angry__left-2 button:hover{
+  opacity: 0.9;
+  box-shadow: 5px 5px 2px 0px #E6B86A;
+  transition: all 0.3s ease-in;
+
+}
+
 .crash{
   border-bottom: 1px solid #000000;
   position: relative;
@@ -660,6 +712,7 @@ body {
   position: absolute;
   top: 0;
   left: -300px;
+  transform: rotate(0);
 }
 
 .rayman3 .angry__right{
@@ -679,6 +732,7 @@ body {
 }
 .ourpatners__items-wrap{
   padding-bottom: 100px;
+  display:flex;
 }
 
 .ourpatner__item{

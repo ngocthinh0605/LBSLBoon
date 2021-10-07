@@ -51,6 +51,7 @@
 
     }
     .blockchainify__top{
+        
         margin:0px 45px 0 45px;
 
     }
@@ -73,8 +74,16 @@
 
         color: #000000;
     }
+    .ourproducts__title h1{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
     .ourproducts__title p {
         margin: 0 5px;
+        font-size: 18px;
+        line-height: 30px;
     }
     .blockchainify--img{
         top: 15px;
@@ -100,6 +109,19 @@
     .aboutus__left-wrapper{
       text-align: center;
     }
+
+    .aboutus__left-wrapper h1{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .aboutus__left-wrapper p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .aboutus__right{
+        padding-left: 0;
+     }
 
     .aboutus__right-2{
         margin-top: 0;
@@ -153,7 +175,7 @@
         font-family: Poppins;
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
+        font-size: 45px;
         line-height: 30px;
         /* identical to box height, or 67% */
 
@@ -168,6 +190,7 @@
         margin-left: 0;
         width: 322px;
         height: 98px;
+        text-align: center;
 
 
     }
@@ -206,9 +229,22 @@
    }
    .angry__right img{
         width:100%;
-       padding:0 20px;
+        padding:0 20px;
+   }
 
-        transform: rotate(-5.88deg);
+   .angry__right.roate img{
+    transform: rotate(-5.88deg);
+
+   }
+   .angry__right h4{
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+   }
+   .angry__right p,ul,li{
+        font-size: 13px;
+        line-height: 20px;
+
    }
    .wrap__angry {
        margin-top: 519px;
@@ -217,7 +253,7 @@
    .angry__right button{
        position: absolute;
        top: 160px;
-       margin-left: 97px;
+       margin-left: 95px;
 
    }
 
@@ -236,11 +272,12 @@
 
    .wrap__angry-2{
        margin-top: 544px;
+       text-align: center;
    }
    .angry__left-2 button {
        position: absolute;
        top: 150px;
-       margin-left: 92px;
+       margin-left: 95px;
 
    }
    .angry__right-2 img{
@@ -263,7 +300,7 @@
 
    .rayman3 .angry__right button {
         top: 142px;
-        margin-left: 97px;
+        margin-left: 95px; 
 
    }
    .rayman3 .wrap__angry{
@@ -298,9 +335,14 @@
     }
     .wrap__angry-2 h4{
         margin-left: 5px;
+        font-size: 13px;
+        line-height: 20px;
      }
     .wrap__angry-2 p{
         margin-left: 5px;
+        font-size: 13px;
+        line-height: 20px;
+
      }
      .wrap__angry-2 ul{
         margin-left: 5px;
@@ -396,6 +438,28 @@
      .header__logo img{
          margin-left: 24px;
      }
+     .productlist__title h1{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+     }
+     .productlist__title p{
+        font-size: 18px;
+        line-height: 30px;
+     }
+     .ourpatners__content h1{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+     }
+     .ourpatners__items-wrap{
+        filter: grayscale(100%);
+
+     }
+     .ourpatners__items-wrap{
+      }
+
+
 }
 
 @media screen and (min-width: 740px) and (max-width: 1023px){
@@ -469,6 +533,7 @@
     .aboutus__card{
         margin: 0 auto;
         margin-bottom: 30px;
+        
 
     }
     .aboutus__right-1{
@@ -485,6 +550,17 @@
         padding-top: 104px;
    }
 
+   .ourproducts__title h1{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    }
+
+    .ourproducts__title p {
+        margin: 0 5px;
+        font-size: 18px;
+        line-height: 30px;
+    }
    .productlist{
        margin-top: 300px;
    }
@@ -527,6 +603,18 @@
         margin-left: 108px;
         margin-top: 540px;
         
+    }
+
+    .ourproducts__bottom-wrap span{
+        font-size: 50px;
+        line-height: 30px;
+        font-weight: bold;
+        letter-spacing: 5px;
+    
+    }
+    .ourproducts__bottom-wrap p{
+        margin-left: 0;
+        text-align: center;
     }
 
     .productlist-img1
@@ -589,6 +677,16 @@
    .wrap__angry {
        margin-top: 666px;
    }
+   .angry__right h4{
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .angry__right p,ul,li{
+        font-size: 13px;
+        line-height: 20px;
+
+    }
 
    .angry__right button{
        position: absolute;
@@ -637,6 +735,9 @@
     .wrap__angry-2{
         margin-top: 692px;
     }
+
+  
+
     .angry__left-2 button {
         position: absolute;
         top: 276px;
@@ -658,9 +759,13 @@
     }
     .wrap__angry-2 h4{
         margin-left: 5px;
+        font-size: 13px;
+        line-height: 20px;
      }
     .wrap__angry-2 p{
         margin-left: 5px;
+        font-size: 13px;
+        line-height: 20px;
      }
      .wrap__angry-2 ul{
         margin-left: 5px;
@@ -721,5 +826,37 @@
     .footer__connect{
         text-align: center;
     }
-       
+    .aboutus__right{
+       margin-right: 100px;
+    }
+    .aboutus__left-wrapper{
+        text-align: center;
+    }
+    .aboutus__left-wrapper h1{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .aboutus__left-wrapper p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .productlist__title h1{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+     }
+     .productlist__title p{
+        font-size: 18px;
+        line-height: 30px;
+     }
+     .ourpatners__content h1{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
+     }
+     .ourpatners__items-wrap{
+        filter: grayscale(100%);
+     }
+
 }
