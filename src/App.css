@@ -651,8 +651,7 @@ body {
 
 
 .angry__right button:hover{
-  opacity: 0.9;
-  box-shadow: 5px 5px 2px 0px #e4c692;
+  box-shadow: 5px 5px 2px 0px rgba(230,184,106,0.5);
   transition: all 0.3s ease-in;
 }
 /*  */
@@ -717,7 +716,7 @@ body {
 
 .angry__left-2 button:hover{
   opacity: 0.9;
-  box-shadow: 5px 5px 2px 0px #E6B86A;
+  box-shadow: 5px 5px 2px 0px rgba(230,184,106,0.5);
   transition: all 0.3s ease-in;
 
 }
