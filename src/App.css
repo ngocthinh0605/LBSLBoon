@@ -304,6 +304,7 @@ body {
 
 .ourproducts__bottom-img{
   position: absolute;
+  z-index: -1;
 }
 
 .ourproducts__bottom-img1{
@@ -324,11 +325,18 @@ body {
   top: 207px;
   left: -178px;
 }
+.ourproducts__bottom-left{
+  text-align: center;
+  margin-top: 750px;
+  
+}
 
 .ourproducts__bottom-wrap{
-  position: absolute;
-  margin-left: 150px;
-  margin-top: 750px;
+  /* position: relative; */
+  /* margin-left: 150px; */
+  /* margin-top: 750px; */
+  /* text-align: center; */
+  /* z-index: 3; */
 }
 
 .ourproducts__bottom-wrap span{
@@ -352,7 +360,7 @@ body {
 }
 
 .ourproducts__bottom-wrap p{
-  margin-left: 120px;
+  margin-left: 288px;
   margin-top: 15px;
   font-family: Poppins;
   font-style: normal;
@@ -511,6 +519,7 @@ body {
 .makeg1{
   bottom:0px;
   right:0px;
+  z-index:1;
 }
 
 .productlist__title{
@@ -643,7 +652,7 @@ body {
 
 .angry__right button:hover{
   opacity: 0.9;
-  box-shadow: 5px 5px 2px 0px #E6B86A;
+  box-shadow: 5px 5px 2px 0px #e4c692;
   transition: all 0.3s ease-in;
 }
 /*  */
@@ -760,5 +769,10 @@ body {
   filter: grayscale(0);
   cursor: pointer;
   box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.rayman3button button{
+  cursor: pointer;
+  z-index: 3;
 }
 

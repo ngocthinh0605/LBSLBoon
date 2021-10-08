@@ -55,6 +55,8 @@
     .blockchainify__top{
         
         margin:0px 45px 0 45px;
+        text-align: center;
+
 
     }
     .blockchainify__top h1{
@@ -64,13 +66,13 @@
     }
 
     .blockchainify__top p { 
-        text-align: center;
 
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 30px;
+
         /* or 167% */
 
 
@@ -174,7 +176,7 @@
         
       }
     .ourproducts__bottom-wrap span{
-        margin-right: 40px;
+        /* margin-right: 40px; */
         text-align: center;
     
         font-family: Poppins;
@@ -465,6 +467,17 @@
         margin-top: 40px;
     }
 
+    .ourproducts__bottom-left{
+        text-align: center;
+        margin-top: 0px;
+        
+      }
+
+     .ourproducts__bottom-wrap p{
+         width: 100%;
+       
+     }
+
 
 }
 
@@ -579,8 +592,15 @@
     }
 
     .ourproducts__bottom-left{
-        width: 100%;
-    }
+        text-align: center;
+        margin-top: 0px;
+        
+      }
+
+     .ourproducts__bottom-wrap p{
+         width: 100%;
+       
+     }
 
     .ourproducts__bottom-img1{
         width: 674.33px;

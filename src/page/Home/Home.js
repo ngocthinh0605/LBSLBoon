@@ -75,8 +75,7 @@ const Home = () => {
         <section className="blockchainify ">
           <div className="blockchainify__top">
             <h1>Blockchainify</h1>
-            <p>Digiverse - Where games become the places that players can create and</p> 
-            <p>own their gamified economies.</p> 
+            <p>Digiverse - Where games become the places that players can create and own their gamified economies.</p> 
           </div>
           <div className="blockchainify__bottom">
             {/* <img src={blockchainifyfull} alt="" className="blockchainify__bottom-img blockchainify--img" /> */}
@@ -277,7 +276,7 @@ const Home = () => {
                 </div>
                 <div className="angry__right angry__right-none col l-6 c-12">
                   <img src={raya3logo} alt="" />
-                  <div className="wrap__angry">
+                  <div className="wrap__angry rayman3button">
                     <h4>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur</h4>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
                     <ul>
@@ -286,7 +285,7 @@ const Home = () => {
                       <li>sed quia consequuntur magni dolores eos qui ratione</li>
                     </ul>
                   </div>
-                  <button>Play Now</button>
+                  <button className="" >Play Now</button>
                 </div>
               </div>
             </div>
