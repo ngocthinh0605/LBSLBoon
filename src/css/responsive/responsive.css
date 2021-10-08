@@ -2,12 +2,14 @@
     .container{
         overflow: hidden;
       }
+    .header{
+    }
 
     .header__nav{
         position:absolute;
         right:0;
         height:92vh;
-        top:16vh;
+        top:107px;
         background-color:#255056;
         z-index: 99999;
         display:flex;
@@ -73,6 +75,9 @@
 
 
         color: #000000;
+    }
+    .ourproducts__title{
+        margin-top: 50px;
     }
     .ourproducts__title h1{
         font-weight: 500;
@@ -146,10 +151,10 @@
         left: -190px;
     }
     .ourproducts__bottom-img2{
-        width:490px;
-        height:490px;
-        top: 65px;
-        left: -56px;
+        width: 430px;
+        height: 430px;
+        top: 107px;
+        left: -36px;
     }
     .ourproducts__bottom-img3{
         
@@ -271,7 +276,7 @@
    }
 
    .wrap__angry-2{
-       margin-top: 544px;
+       margin-top: 500px;
        text-align: center;
    }
    .angry__left-2 button {
@@ -327,9 +332,6 @@
     }
 
     /*  */
-    .wrap__angry-2{
-        text-align: center;
-    }
     .wrap__angry-2{
         margin-left: 0px;
     }
@@ -459,6 +461,10 @@
      .ourpatners__items-wrap{
       }
 
+      .aboutus__right-1 {
+        margin-top: 40px;
+    }
+
 
 }
 
@@ -471,7 +477,8 @@
         position:absolute;
         right:0;
         height:92vh;
-        top:10vh;
+        top:107px;
+
         background-color:#255056;
         z-index: 2;
         display:flex;
@@ -482,7 +489,6 @@
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         display: none;
-        
     }
 
     .nav_active{
@@ -547,7 +553,7 @@
    }
 
    .ourproducts__title{
-        padding-top: 104px;
+        margin-top: 200px;
    }
 
    .ourproducts__title h1{
@@ -585,16 +591,10 @@
     .ourproducts__bottom-img2{
         width: 590px;
         height: 590px;
-        top: -3px;
-        left: 45px;
+        top: 68px;
+        left: 10px;
     }
 
-    .ourproducts__bottom-img4{
-        width: 419px;
-        height: 419px;
-        top: 124px;
-        left: 148px;
-    }
     .ourproducts__bottom-img3{
         display: none;
     }
@@ -671,12 +671,13 @@
    .angry__right img{
         width:100%;
        padding:0 20px;
-
         transform: rotate(-5.88deg);
    }
    .wrap__angry {
        margin-top: 666px;
    }
+
+
    .angry__right h4{
         font-weight: 600;
         font-size: 13px;
@@ -787,6 +788,7 @@
         margin-top: -76px;
         padding:0 20px;
         width: 100%;
+        transform: rotate(0);
     }
  
     .rayman3 .angry__right button {

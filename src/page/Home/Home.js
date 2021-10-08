@@ -58,6 +58,9 @@ import makeg1 from '../../img/makeGroup1.png'
 import makeg2 from '../../img/makeGroup2.png'
 import Groudabout1 from '../../img/Groupabout1.png'
 import Groudabout2 from '../../img/Groupabout2.png'
+
+import Groudaboutus from '../../img/GroupAboutus.png'
+import GroudaboutusDot from '../../img/Groupdotabout.png'
 import lineabout from '../../img/lineabout.png'
 import lineabout1 from '../../img/lineabout1.png'
 import dotabout from '../../img/Groupdotabout.png'
@@ -81,15 +84,16 @@ const Home = () => {
           </div>
         </section>
         <section className="aboutus">
-          <img src={Groudabout1} alt="" className="about-img Groupabout1" />
           <img src={about1} alt="" className="about-img about1" />
-          <img src={vector2} alt="" className="about-img about1" />
+          <img src={vector2} alt="" className="about-img about2" />
           <img src={aboutline} alt="" className="about-img aboutline" />
           <img src={line2} alt="" className="about-img line2" />
           <img src={aboutbot1} alt="" className="about-img aboutbot1" />
           <img src={lineabout} alt="" className="about-img lineabout" />
           <img src={lineabout1} alt="" className=" lineabout1" />
           <img src={dotabout} alt="" className=" lineabout2" />
+          <img src={Groudaboutus} alt="" className="about-img Groupabout1" />
+          <img src={GroudaboutusDot} alt="" className="about-img Groupaboutdot" />
           <div className="row">
             <div className="aboutus__left col l-3 c-12">
               <div className="aboutus__left-wrapper">
@@ -127,8 +131,8 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="aboutus__card col c-12 m-12">
-                    {/* <img src={aboutline} alt="" className="about-img aboutline3" />
-                    <img src={aboutline} alt="" className="about-img aboutline4" /> */}
+                    <img src={aboutline} alt="" className="about-img aboutline3" />
+                    <img src={aboutline} alt="" className="about-img aboutline4" />
                     <img src={card4} alt="" className="aboutus__card-img" />
                     <div className="aboutus__card-infor">
                       <span>Flexibility</span>
@@ -151,9 +155,9 @@ const Home = () => {
             <div className="row">
               <div className="ourproducts__bottom-left l-8 c-12 m-12">
                 <img src={Vectormake2} alt="" className="ourproducts__bottom-img ourproducts__bottom-img1 " />
-                <img src={maket3} alt="" className="ourproducts__bottom-img ourproducts__bottom-img4 " />
+               
                 <img src={maketheo} alt="" className="ourproducts__bottom-img ourproducts__bottom-img2" />
-                <img src={maket2} alt="" className="ourproducts__bottom-img ourproducts__bottom-img3 " />
+               
                 <div className="ourproducts__bottom-wrap col c-12">
                   <span>Marketplace</span>
                   <p>The digital market allows players to sell and buy those items with great qualities</p>
